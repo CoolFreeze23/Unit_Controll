@@ -83,7 +83,7 @@ local check_deployer = function(entity)
   script_data.tick_check[check_tick] = script_data.tick_check[check_tick] or {}
   script_data.tick_check[check_tick][entity.unit_number] = entity
 
-  local inventory = entity.get_inventory(defines.inventory.assembling_machine_output)
+  local inventory = entity.get_inventory(defines.inventory.crafter_output)
   local contents = inventory.get_contents()
   local entities = prototypes.entity
   for _, item in pairs (contents) do
@@ -122,7 +122,7 @@ local on_tick = function(event)
 end
 
 local reinit_all_deployers = function()
-  local profiler = game.create_profiler()
+  local profiler = helpers.create_profiler()
   local machines = {}
   script_data.machines = machines
 

@@ -1,3 +1,12 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-11-21
+  Changes:
+    - Updated for Factorio 2.1.
+  Bugfixes:
+    - Fixed a crash on new game or load: map settings no longer contain unit steering in 2.1 (the fuzzy-goto steering option was removed from the game).
+    - Fixed deployers (Infantry Depot and other deployer machines) not reading their output: the machine output inventory is now defines.inventory.crafter_output.
+    - Fixed the deployer re-initialisation profiler using the removed game.create_profiler (now helpers.create_profiler).
 Version: 2.0.3
 Date: 2025-01-12
   Notes:

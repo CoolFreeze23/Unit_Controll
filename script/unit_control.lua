@@ -1944,15 +1944,9 @@ local set_map_settings = function()
     settings.path_finder.use_path_cache = false
     --settings.path_finder.short_cache_size = 0
     --settings.path_finder.long_cache_size = 0
-    settings.steering.moving.force_unit_fuzzy_goto_behavior = true
-    settings.steering.default.force_unit_fuzzy_goto_behavior = false
-    --settings.steering.moving.radius = 0
-    --settings.steering.moving.default = 0
+    -- Factorio 2.1 removed MapSettings::steering (steering is now per unit prototype)
+    -- and the force_unit_fuzzy_goto_behavior option along with it.
     settings.max_failed_behavior_count = 5
-    --settings.steering.moving.force_unit_fuzzy_goto_behavior = true
-    --settings.steering.moving.radius = 1
-    --settings.steering.moving.separation_force = 0.1
-    --settings.steering.moving.separation_factor = 1
   end
 end
 
