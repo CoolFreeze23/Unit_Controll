@@ -1,0 +1,11 @@
+{
+  "name": "Unit_Controll",
+  "version": "2.0.3",
+  "title": "Unit Control [fixed]",
+  "author": "KIonan, Evan",
+  "contact": "",
+  "homepage": "",
+  "description": "Control of Units (updated by Evan)",
+  "dependencies": ["base >= 2.0"],
+  "factorio_version": "2.0"
+}

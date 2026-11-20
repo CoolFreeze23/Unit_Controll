@@ -1,0 +1,149 @@
+Version: 2.0.3
+Date: 2025-01-12
+  Notes:
+    - Fixed command script error set_distraction_command
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2025-01-05
+  Notes:
+    - This update for Factorio 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2021-08-22
+  Changes:
+    - Better target selection after distraction command completion.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 2021-08-08
+  Changes:
+    - Some small polish here and there.
+    - Deployment can fail if the deployer output area is too blocked.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2021-08-07
+  Changes:
+    - Better detection of something in the cursor to block the selection mode.
+    - Fancier unit selection indicators.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2021-07-30
+  Changes:
+    - Fix shift-drag selection in map view.
+    - Fix select all units hotkey, also limited it to 200 tiles radius of the click position
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2021-07-27
+  Changes:
+    - Some polish related to the select tool, such as over selecting blueprints.
+    - Fix related to following target with no speed.
+    - Fix related to attacking entity with no health.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2021-07-25
+  Changes:
+    - Fixes for hivemind mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2021-07-25
+  Changes:
+    - Fix crash of event not setup on fresh save.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2021-07-25
+  Changes:
+    - Fix another crash related to speeds and feeds of units.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2021-07-25
+  Changes:
+    - Fix crash if no crafting machine deployers exist.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2021-07-25
+  Changes:
+    - Left click and drag to select without any tool needed.
+    - Right click to command without any tool needed.
+    - Removed the specific selection tools.
+    - Fixed deployers not being issues commands.
+    - New indicator look.
+    - New group move positioning.
+    - etc.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2020-12-28
+  Changes:
+    - 1.1 update.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2020-06-12
+  Changes:
+    - Fix error due to GUI style changes.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2020-03-17
+  Changes:
+    - Change system of how units are determined to be selectable. Mods can now add 'not_controllable' to the unit prototype, and the selection tool won't find them.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020-03-17
+  Changes:
+    - Fix messing with util lib.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020-01-22
+  Changes:
+    - Update to 0.18.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.22
+Date: 2019-05-07
+  Changes:
+    - Added SHIFT + ALT + LMB hotkey for selecting all units.
+    - Added SHIFT + ALT + RMB hotkey for selecting all deployers.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.21
+Date: 2019-04-21
+  Changes:
+    - Added ALT + LMB hotkey for getting a unit selection tool.
+    - Added ALT + RMB hotkey for getting a deployer selection tool.
+    - 'is_deployer' checking will now work with all entity types.
+    - Fix for rename of "player" to "character".
+---------------------------------------------------------------------------------------------------
+Version: 0.1.19
+Date: 2019-04-21
+  Changes:
+    - Fix a desync related to attack commands.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 2019-04-20
+  Changes:
+    - For performance reasons, unit selection and target indication are done with highlight box entities instead of the fancy script rendering.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 2019-04-18
+  Changes:
+    - Reverted a desync fix (It was unrelated).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 2019-04-18
+  Changes:
+    - Potentially fix a desync
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2019-04-18
+  Changes:
+    - Attack-move will now target all enemy structures, not just military structures.
+    - Fixes some bugs probably.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2019-04-13
+  Changes:
+    - You can only select and order things on your own force.
+    - Fixed a bug with copy pasting deployers.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2019-03-26
+  Changes:
+    - Added changelog...
+    - Optimized drawing of unit indication for selection and attack target. (Might be some edge cases? let me know).
+    - Somewhat optimized commanding large groups to attack a lot of targets.
+    - Added double-click to select all of that type nearby.
